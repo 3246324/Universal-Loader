@@ -1,4 +1,7 @@
 if game.PlaceId == 78079451644610 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/3246324/Clean-The-Library/refs/heads/main/autoclean"))()
     return
+else
+    game:GetService("Players").LocalPlayer:Kick("Unsupported game")
 end
+return

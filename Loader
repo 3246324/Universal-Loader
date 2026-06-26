@@ -1,1 +1,4 @@
-
+if game.PlaceId == 78079451644610 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3246324/Clean-The-Library/refs/heads/main/autoclean"))()
+    return
+end

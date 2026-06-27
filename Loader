@@ -1,7 +1,9 @@
 if game.PlaceId == 78079451644610 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/3246324/Clean-The-Library/refs/heads/main/autoclean"))()
     return
+elseif game.PlaceId == 98800969324557 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3246324/Storage-Hunters/refs/heads/main/Hub"))()
 else
     game:GetService("Players").LocalPlayer:Kick("Unsupported game")
+    return
 end
-return
